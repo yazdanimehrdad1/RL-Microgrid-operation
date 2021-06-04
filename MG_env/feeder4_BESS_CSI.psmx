@@ -1,0 +1,62 @@
+<Meta name="feeder4_BESS_CSI">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="feeder4_BESS_CSI" id="536306187" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.0]]></message>
+    <message status="normal" label="build" groupid="100006" link="709955472" id="709955472" classid="FileNavigator"><![CDATA[Generating 'C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\feeder4_BESS_CSI.map'.]]><file scope="feeder4_BESS_CSI">C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\feeder4_BESS_CSI.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="feeder4_BESS_CSI" id="41468660" classid="MessageObj"><![CDATA[The total number of live nodes: 30]]></message>
+    <message status="normal" label="build" groupid="0" link="1096004993" id="1096004993" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\\feeder4_BESS_CSI.mak']]><file scope="feeder4_BESS_CSI">C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\\feeder4_BESS_CSI.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="feeder4_BESS_CSI" id="2022057127" classid="MessageObj"><![CDATA[Time for Compile: 2312ms  Make: 15ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="feeder4_BESS_CSI" id="378981876" classid="MessageObj"><![CDATA[Solve Time = 16ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="feeder4_BESS_CSI" id="530502452" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="feeder4_BESS_CSI" id="1351093819" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="feeder4_BESS_CSI" id="1261739767" classid="MessageObj"><![CDATA[Will execute (2): make -j -f feeder4_BESS_CSI.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="feeder4_BESS_CSI" id="1885139424" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\feeder4_BESS_CSI_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="feeder4_BESS_CSI" id="1273383044" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="feeder4_BESS_CSI" id="1821713240" classid="MessageObj"><![CDATA[(base) C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100004" scope="feeder4_BESS_CSI" id="960536541" classid="MessageObj"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="feeder4_BESS_CSI" id="1770476477" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'feeder4_BESS_CSI.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="feeder4_BESS_CSI" id="1838270072" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.0]]></message>
+    <message status="warning" label="runtime" groupid="200009" scope="feeder4_BESS_CSI" id="272347857" classid="MessageObj"><![CDATA[Namespace 'feeder4_BESS_CSI' has been modified since the snapshot file
+'C:\Users\AD-MYazdani\Desktop\SDSU Research-RL-Microgrid\MG_env\feeder4_BESS_CSI.gf46\snap_currentState.snp' was created.
+This may affect the simulation results.]]></message>
+    <message status="warning" label="runtime" groupid="200009" scope="feeder4_BESS_CSI" id="1748359643" classid="MessageObj"><![CDATA[Snapshot file 'snap_currentState.snp' generated during a previous run will be overwritten.]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="feeder4_BESS_CSI" id="2108856076" classid="MessageObj"><![CDATA[Non-standard Messages: Abnormal program termination.]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="feeder4_BESS_CSI" id="128209407" classid="MessageObj"><![CDATA[EMTDC Runtime Error: abnormally terminated]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="feeder4_BESS_CSI" id="2001281989" classid="MessageObj"><![CDATA[ ERROR: Storage Pointers have become Corrupt!]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="feeder4_BESS_CSI" id="2012904750" classid="MessageObj"><![CDATA[ ERROR: Abnormal termination of EMTDC by CHKNRTC     ]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="feeder4_BESS_CSI" id="818479042" classid="MessageObj"><![CDATA[Simulation stopped.]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="feeder4_BESS_CSI:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.2" scrollx="0" scrolly="117" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2021/05/31" time="18:27:30.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="8000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):V_BUS1_A" index="1" gindex="100663297" id="2110205198:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_BUS1_B" index="2" gindex="100663298" id="1187123249:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_BUS1_C" index="3" gindex="100663299" id="2142828891:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_BUS2_A" index="4" gindex="100663300" id="317535000:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_BUS2_B" index="5" gindex="100663301" id="807442494:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_BUS2_C" index="6" gindex="100663302" id="1209780283:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):PV1_P" index="7" gindex="100663303" id="1999451277:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):PV1_Q" index="8" gindex="100663304" id="1173236510:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_2_SOC" index="9" gindex="100663305" id="2144379860:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):PV2_P" index="10" gindex="100663306" id="1073058382:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):PV2_Q" index="11" gindex="100663307" id="580535408:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BUS1_load_P" index="12" gindex="100663308" id="2082276339:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BUS1_load_Q" index="15" gindex="100663311" id="997954862:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BUS2_load_P" index="18" gindex="100663314" id="1480518482:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BUS2_load_Q" index="19" gindex="100663315" id="1206845885:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_2_Q" index="20" gindex="100663316" id="1125387463:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_2_P" index="21" gindex="100663317" id="1833310419:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_1_Q" index="22" gindex="100663318" id="1100276700:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_1_P" index="23" gindex="100663319" id="378242019:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):BESS_1_SOC" index="24" gindex="100663320" id="466716685:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
